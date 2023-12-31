@@ -4,7 +4,7 @@
  Sistem Deteksi Kandungan Logam dan Non-logam (SIDEKAL) dalam proses pengemasan makanan adalah teknologi vital yang digunakan dalam industri makanan untuk memastikan keamanan produk sebelum didistribusikan ke konsumen. SIDEKAL menjadi krusial karena potensi terjadinya kontaminasi logam pada produk makanan selama proses produksi itu sangat besar. SIDEKAL diintegrasikan dengan memanfaatkan Programmable Logic Controller(PLC) dimana sistem dirancang menggunakan konveyor otomatis yang dilengkapi dengan sensor canggih untuk mengidentifikasi keberadaan logam atau non-logam dalam produk makanan pada tahap pengemasan. Hal ini bertujuan untuk memastikan produk yang diproduksi bebas dari kontaminasi sebelum mencapai tangan konsumen.
 ## Contributor
 | Full Name | Affiliation | Email | Role |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 | Chalda Bhakti Jelika | Ahmad Dahlan University| chalda2115022030@webmail,uad.ac.id | Team Lead |
 | Edy Fitriyanto | Ahmad Dahlan University | edy2100022030@webmail.uad.ac.id |Team Member |
 | Haris Imam Karim Fathurrahman, S.Pd., M.Sc.| lecturer Ahmad Dahlan University | haris.fathurrahman@te.uad.ac.id |  | lecturer |
