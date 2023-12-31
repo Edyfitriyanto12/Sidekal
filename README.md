@@ -23,58 +23,19 @@ Manual Mode
 Otomatis Mode
 ![Tampilan Awal](https://github.com/Edyfitriyanto12/Sidekal/blob/main/Otomatis%20mode.jpeg)
 
-## Results
-### Model Performance
-This section is an overview of the performance of our fine-tuned VGG16 model on a custom dataset. The primary objective was to achieve optimal classification accuracy for images across various classes. The model was trained using different hyperparameter configurations, and we assess its effectiveness through key performance metrics.
-Describe all results found in your final project experiments, including hyperparameters tuning and architecture modification performances. Put it into table format. Please show pictures (of model accuracy, loss, etc.) for more clarity.
-
-#### 1. Metrics
-The table below summarizes the model's performance across different experiments
-
-| model | epoch | learning_rate | momentum | batch_size | optimizer | train_accuracy | val_accuracy |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| vgg16 | 5 | 0.001 | - | 32 | Adam | 97% | 96% | 
-| vgg16 | 5 | 0.001 | 0.9 | 43 | SGD | 98% | 97% |
-| vgg16 | 5 | 0.01 | 0.9 | 43 | SGD | 97% | 96% |
-| vgg16 | 10 | 0.01 | - | 43 | Adagard | 96% | 98% |
-
-#### 2. Ablation Study
-Improvements or modifications of our base model vgg16 that we use :
-- Freezing Convolutional Layers
-- Customized Classifier
-
-#### 3. Training/Validation Curve
-Training and validation loss function curve
-
-![loss](https://github.com/valentingea/face-recognition-locker-system/assets/117613132/e9957ea7-6050-45a4-ad8b-ba2b8122ff87)
-
-Training and validation accuracy curve
-
-![akurasi](https://github.com/valentingea/face-recognition-locker-system/assets/117613132/5d5e8b31-f0ba-472d-b4e6-57ad5effc5d9)
- 
-### Testing
-The data we use for testing is data that has been adjusted to the format in deployment. 10 data in testing gave appropriate results.
-
-### Deployment
-Our deployment leverages Streamlit, a powerful Python library for creating interactive web applications, to facilitate the seamless and user-friendly selection of lockers based on facial recognition.
-
-![hal 1](https://github.com/valentingea/face-recognition-locker-system/assets/117613132/f002bc0c-94ed-4b0b-bd89-1809ccb37f0a)
-![hal 2](https://github.com/valentingea/face-recognition-locker-system/assets/117613132/265cd03d-782d-4f40-ade8-5573cd81b8a7)
-![hal 3](https://github.com/valentingea/face-recognition-locker-system/assets/117613132/e012fcd0-8671-4703-8a7e-732dbea0078e)
-
-if you want to try running the program with original data, you can download the model [here](https://drive.google.com/file/d/1sO6vQMFZmZaV3uD47ovzGRN8LuQ55hGf/view?usp=sharing). But, if you want to use your own data, you have to retrain the model with your data.
-
-## Supporting Documents
-### Presentation Deck
-[Presentation Deck](https://drive.google.com/file/d/1ourl5lYNiHLecRYxaus7g-81wTnnRMXT/view?usp=sharing)
-
-### Business Model Canvas
-The business model canvas is a strategic management tool that provides a visual framework for developing, describing, and assessing a business model in a concise one-page format.
-![bmc 1](https://github.com/valentingea/face-recognition-locker-system/assets/117613132/ca601234-0514-4e1b-9480-4e294afcca02)
-![bmc 2](https://github.com/valentingea/face-recognition-locker-system/assets/117613132/3168af70-21fe-4caa-9822-8c2a638ffbd4)
-
-### Short Video
-[Short Video](https://drive.google.com/file/d/11GRKILC0B2dW9ttjJQZ0YE1K5kWBUXeA/view?usp=sharing)
+## Cara keja
+### Mode manual
+terdapat tampilan 3 konveyor, 2 sensor (sensor logam dan non logam) dan 2 buah robot pemindah barang. 
+- tekan push button start yang mana sistem akan standby untuk mengghidupkan ke 3 konveyor tsb. 
+- jika switch M1 sekali tekan maka konveyor 1 akan hidup, switch M2 sekali tekan maka konveyor 2 akan hidup, dan switch 3 sekali tekan maka konveyor 3 akan hidup. 
+- selanjutnya kedua robot akan bekerja dengan memenfaatkan deteksi dari kedua sensor masing masing. dimana jika sensor logam mendeteksi barang logam, maka robot 1 akan bekerja memindahkan barang ke konveyor 2 dan jika sensor logam tidak mendeteksi dan barang terdeteksi sensor non logam maka robot 2 akan bekerja untuk memindahkan ke konveyor 3
+  
+### Mode Otomatis
+- Tekan tombol start dan sistem akan standby untuk bekerja.
+- jika sensor masuk mendeteksi barang maka konveyor 1 secara otomatis on sampai menuju sensor logam dan non logam. 
+- jika sensor logam mendeteksi maka robot akan bekerja selama 10 detik untuk memindahkan barang, setelah robot bekerja dilanjutkan dengan konveyor 2 ON untuk membawa sampai sensor output mendeteksi barang logam tersebut.
+- kemudian pada sistem sensor non logam mendeteksi maka robot akan bekerja selama 10 detik untuk memindahkan barang, 
+- setelah robot bekerja dilanjutkan dengan konveyor 3 on untuk membawa sampai sensor output mendeteksi barang non logam tersebut. 
 
 ## References
 Provide all links that support this final project, i.e., papers, GitHub repositories, websites, etc.
