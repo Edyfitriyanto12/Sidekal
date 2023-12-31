@@ -6,9 +6,9 @@
 ## Contributor
 | Full Name | Affiliation | Email | Role |
 | --- | --- | --- | --- |
+| Haris Imam Karim Fathurrahman, S.Pd., M.Sc.| lecturer Ahmad Dahlan University | haris.fathurrahman@te.uad.ac.id | lecturer |
 | Edy Fitriyanto | Ahmad Dahlan University | edy2100022030@webmail.uad.ac.id | Team Lead |
 | Chalda Bhakti Jelika | Ahmad Dahlan University| chalda2115022030@webmailuad.ac.id | Team Member|
-| Haris Imam Karim Fathurrahman, S.Pd., M.Sc.| lecturer Ahmad Dahlan University | haris.fathurrahman@te.uad.ac.id | lecturer |
 
 ## Setup
 ### Prerequisite Packages (Dependencies)
