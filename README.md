@@ -16,8 +16,12 @@
 - CX-Designer 
 
 example Display HMI :
-
+The Team
 ![Tampilan Awal](https://github.com/Edyfitriyanto12/Sidekal/blob/main/the%20team.jpeg)
+Manual Mode
+![Tampilan Awal](https://github.com/Edyfitriyanto12/Sidekal/blob/main/Manual%20Mode.jpeg)
+Otomatis Mode
+![Tampilan Awal](https://github.com/Edyfitriyanto12/Sidekal/blob/main/Otomatis%20mode.jpeg)
 
 ## Results
 ### Model Performance
