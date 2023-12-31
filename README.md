@@ -17,7 +17,7 @@
 
 example Display HMI :
 
-![Tampilan Awal](https://github.com/valentingea/face-recognition-locker-system/assets/117613132/2799604c-a994-41af-ba30-ca2539575979)
+![Tampilan Awal]([https://github.com/valentingea/face-recognition-locker-system/assets/117613132/2799604c-a994-41af-ba30-ca2539575979](https://github.com/Edyfitriyanto12/Sidekal/blob/main/the%20team.jpeg))
 
 ## Results
 ### Model Performance
