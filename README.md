@@ -2,6 +2,7 @@
 
 ## Project Description
  Sistem Deteksi Kandungan Logam dan Non-logam (SIDEKAL) dalam proses pengemasan makanan adalah teknologi vital yang digunakan dalam industri makanan untuk memastikan keamanan produk sebelum didistribusikan ke konsumen. SIDEKAL menjadi krusial karena potensi terjadinya kontaminasi logam pada produk makanan selama proses produksi itu sangat besar. SIDEKAL diintegrasikan dengan memanfaatkan Programmable Logic Controller(PLC) dimana sistem dirancang menggunakan konveyor otomatis yang dilengkapi dengan sensor canggih untuk mengidentifikasi keberadaan logam atau non-logam dalam produk makanan pada tahap pengemasan. Hal ini bertujuan untuk memastikan produk yang diproduksi bebas dari kontaminasi sebelum mencapai tangan konsumen.
+ 
 ## Contributor
 | Full Name | Affiliation | Email | Role |
 | --- | --- | --- | --- |
@@ -11,20 +12,12 @@
 
 ## Setup
 ### Prerequisite Packages (Dependencies)
-- pytorch==2.1.0+cu118
-- sklearn==1.2.2
-- PIL==9.4.0
-- matplotlib==3.7.1
-- numpy==1.23.5
-- streamlit==1.28.2
+- CX-Programmer Omron
+- CX-Designer 
 
-## Dataset
-The Dataset is a manually curated collection of high-quality facial images representing each team member, designed for training and evaluating a face recognition model
-- Link: https://drive.google.com/file/d/1F5aAY3sl3X8otpcknJKCEGq-g0SLmZWg/view?usp=sharing
+example Display HMI :
 
-example dataset :
-
-![data ghulam](https://github.com/valentingea/face-recognition-locker-system/assets/117613132/2799604c-a994-41af-ba30-ca2539575979)
+![Tampilan Awal](https://github.com/valentingea/face-recognition-locker-system/assets/117613132/2799604c-a994-41af-ba30-ca2539575979)
 
 ## Results
 ### Model Performance
@@ -81,10 +74,7 @@ The business model canvas is a strategic management tool that provides a visual 
 
 ## References
 Provide all links that support this final project, i.e., papers, GitHub repositories, websites, etc.
-- Link: https://www.kaggle.com/code/nandinibagga/face-recognition-model-opencv-lbph
-- Link: https://www.kaggle.com/code/vinayakshanawad/celebrity-face-recognition-vggface-model
-- Link: https://...
-
+- 
 ## How to Cite
 If you find this project useful, we'd grateful if you cite this repository:
 ```
