@@ -1,19 +1,13 @@
-# FACE FORTIFY : Face Recognition Locker System
+# SIDEKAL : Sistem deteksi kandungan logam & non logam pada proses pengemasan makanan
 
 ## Project Description
-Our project introduces a state-of-the-art Face Recognition Locker System implemented using a customized VGG16 model. This innovative solution combines advanced face recognition technology with a secure locker system, providing a seamless and secure user experience.
-
+ Sistem Deteksi Kandungan Logam dan Non-logam (SIDEKAL) dalam proses pengemasan makanan adalah teknologi vital yang digunakan dalam industri makanan untuk memastikan keamanan produk sebelum didistribusikan ke konsumen. SIDEKAL menjadi krusial karena potensi terjadinya kontaminasi logam pada produk makanan selama proses produksi itu sangat besar. SIDEKAL diintegrasikan dengan memanfaatkan Programmable Logic Controller(PLC) dimana sistem dirancang menggunakan konveyor otomatis yang dilengkapi dengan sensor canggih untuk mengidentifikasi keberadaan logam atau non-logam dalam produk makanan pada tahap pengemasan. Hal ini bertujuan untuk memastikan produk yang diproduksi bebas dari kontaminasi sebelum mencapai tangan konsumen.
 ## Contributor
-| Full Name | Affiliation | Email | LinkedIn | Role |
+| Full Name | Affiliation | Email | Role |
 | --- | --- | --- | --- | --- |
-| Valentin Gea Affila Pradika | Udayana University | gea.valentin00@gmail.com | [link](https://www.linkedin.com/in/valentin-gea/) | Team Lead |
-| Muhammad Ghulamzaki | Semarang State University  | gulammuzakie@gmail.com | [link](https://www.linkedin.com/in/muhammad-ghulamzaki) | Team Member |
-| Edy Fitriyanto | Ahmad Dahlan University | edyfitriyanto12@gmail.com | [link](https://www.linkedin.com/in/edy-fitriyanto-12163622a/) |Team Member |
-| Fanesa Dwiana Sari | Amikom Purwokerto University | fanesadwiana@gmail.com | [link](https://www.linkedin.com/in/fanesa-dwiana-sari-2b04b125a/) | Team Member |
-| Heri Gunawan | Diponegoro University | gunawanheri534@gmail.com | [link](https://www.linkedin.com/in/heri-gunawan-b957401b8/) | Team Member |
-| Mitra Novitri Waruwu | Nias University | mitranovitri14@gmail.com | [link](https://www.linkedin.com/in/mitra-novitri-waruwu-00a04a283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) | Team Member |
-| M. Haswin Anugrah Pratama | Startup Campus, AI Track | haswinpratama21@gmail.com | [link](https://www.linkedin.com/in/haswinpratama/) | Supervisor |
-| Ni Luh Ayu Nitya Laksmi | Startup Campus, AI Track | nityalaksmi@gmail.com | [link](https://www.linkedin.com/in/nitya-laksmi-0b152b18b/) | Facilitator |
+| Chalda Bhakti Jelika | Ahmad Dahlan University| chalda2115022030@webmail,uad.ac.id | Team Lead |
+| Edy Fitriyanto | Ahmad Dahlan University | edy2100022030@webmail.uad.ac.id |Team Member |
+| Haris Imam Karim Fathurrahman, S.Pd., M.Sc.| lecturer Ahmad Dahlan University | haris.fathurrahman@te.uad.ac.id |  | lecturer |
 
 ## Setup
 ### Prerequisite Packages (Dependencies)
